@@ -1,21 +1,24 @@
 USE codeup_test_db;
-INSERT INTO albums(artist, name, release_date, sales_in_millions, genre)
-VALUES('Michael Jackson', 'Thriller', 1982,'46.00', 'Pop, Rock, R&B'),
-      ('AC/DC', 'Back in Black', 1980, '26.10', 'Hard Rock'),
-      ('Pink Floyd', 'The Dark Side of the Moon', 1973, '24.20', 'Progressive Rock'),
-      ('Whitney Houston', 'The Bodyguard', 1992, '27.40', 'R&B, Soul, Pop, Soundtrack'),
-      ('Meat Loaf', 'Bat Out of Hell', 1977, '20.60', 'Hard Rock, Progressive Rock'),
-      ('Eagles', 'Their Greatests Hits (1971-1975)',1976,'32.20', 'Rock, Soft Rock, Folk rock'),
-      ('Bee Gees', 'Saturday Night Fever', 1977,'20.60', 'Disco'),
-      ('Fleetwood Mac', 'Rumours', 1977, '27.90', 'Soft Rock'),
-      ('Shania Twain', 'Come On Over', 1997, '29.60', 'Country, Pop'),
+
+TRUNCATE albums;
+
+INSERT INTO albums (artist, name, release_date, sales_in_millions, genre)
+VALUES ('Michael Jackson', 'Thriller', 1982, '46.00', 'Pop, Rock, R&B'),
+  ('AC/DC', 'Back in Black', 1980, '26.10', 'Hard Rock'),
+  ('Pink Floyd', 'The Dark Side of the Moon', 1973, '24.20', 'Progressive Rock'),
+  ('Whitney Houston', 'The Bodyguard', 1992, '27.40', 'R&B, Soul, Pop, Soundtrack'),
+  ('Meat Loaf', 'Bat Out of Hell', 1977, '20.60', 'Hard Rock, Progressive Rock'),
+  ('Eagles', 'Their Greatests Hits (1971-1975)', 1976, '32.20', 'Rock, Soft Rock, Folk rock'),
+  ('Bee Gees', 'Saturday Night Fever', 1977, '20.60', 'Disco'),
+  ('Fleetwood Mac', 'Rumours', 1977, '27.90', 'Soft Rock'),
+  ('Shania Twain', 'Come On Over', 1997, '29.60', 'Country, Pop'),
   ('Led Zeppelin', 'Led Zeppelin IV', 1971, '29.00', 'Hard Rock, Heavy Metal'),
   ('Adele', '21', 2011, '25.30', 'Pop, Soul'),
   ('Michael Jackson', 'Bad', 1987, '20.30', 'Pop, Funk, Rock'),
   ('Alanis Morissette', 'Jagged Little Pill', 1995, '24.80', 'Alternative Rock'),
   ('Celine Dion', 'Falling Into You', 1996, '20.20', 'Pop, Soft Rock'),
   ('The Beatles', 'Sgt. Peppers Lonely Hearts Club Band', 1967, '13.10', 'Rock'),
-  ('The Eagles', 'Hotel California', 1976, '21.50','Rock, Soft Rock, Folk Rock'),
+  ('The Eagles', 'Hotel California', 1976, '21.50', 'Rock, Soft Rock, Folk Rock'),
   ('Mariah Carey', 'Music Box', 1993, '19.00', 'Pop, R&B, Rock'),
   ('Michael Jackson', 'Dangerous', 1991, '17.60', 'Rock, Funk, Pop'),
   ('Various Artists', 'Dirty Dancing', 1987, '17.90', 'Pop, Rock, R&B'),
@@ -29,5 +32,5 @@ VALUES('Michael Jackson', 'Thriller', 1982,'46.00', 'Pop, Rock, R&B'),
   ('Metallica', 'Metallica', 1991, '19.90', 'Thrash Metal, Heavy Metal'),
   ('Nirvana', 'Nevermind', 1991, '16.70', 'Grunge, Alternative Rock'),
   ('Pink Floyd', 'The Wall', 1979, '17.60', 'Progressive Rock'),
-  ('Santana', 'Supernatural', 1999, '20.50','Rock'),
+  ('Santana', 'Supernatural', 1999, '20.50', 'Rock'),
   ('Guns N Roses', 'Appetite for Destruction', 1987, '21.30', 'Heavy Metal, Hard Rock');
