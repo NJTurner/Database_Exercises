@@ -1,4 +1,4 @@
-use employees;
+USE employees;
 
 SELECT DISTINCT title
 FROM titles;
@@ -10,12 +10,14 @@ GROUP BY title;
 
 SELECT DISTINCT last_name
 FROM employees
-WHERE last_name LIKE 'E%' and last_name LIKE '%E'
+WHERE last_name LIKE 'E%' AND last_name LIKE '%E'
 GROUP BY last_name;
 
-SELECT DISTINCT first_name, last_name
+SELECT DISTINCT
+  first_name,
+  last_name
 FROM employees
-WHERE last_name LIKE 'E%' and last_name LIKE '%E';
+WHERE last_name LIKE 'E%' AND last_name LIKE '%E';
 
 SELECT DISTINCT last_name
 FROM employees
